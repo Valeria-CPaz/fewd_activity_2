@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- Table example as a college timetable -->
+<html>
+    <head>
+        <title>Tables</title>
+        <!-- CSS code, only in this example we use to show the timetable clearly otherwise we use an external CSS file -->
+        <link href="../../css/styles.css" type="text/css" rel="stylesheet" />
+
+    <!-- End of head -->
+    </head>
+    <!-- The main body -->
+    <body>
+        <!-- Start the table element -->
+        <div id="navigation">
+            <!-- Navigation links leading to pages in the directory of the folder -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="content/tables/timetable.html">College Timetable</a></li>
+                <li><a href="content/tables/list.html">Table List</a></li>
+                <li><a href="content/forms/forms.html">Forms</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+        <!-- End of navigation block -->
+        </div>
+        <div class="container">
+        <table>
+                <!-- First table row -->
+                <tr>
+                    <!-- Span 8 headings -->
+                    <th>TIMETABLE</th>
+                    <th>1pm</th>
+                    <th>2pm</th>
+                    <th>3pm</th>
+                    <th>4pm</th>
+                    <th>5pm</th>
+                    <th>6pm</th>
+                    <th>7pm</th>
+                </tr>
+                <!-- First Table Row -->
+                <tr>
+                    <th>Monday</th>
+                    <!-- 3 Column Span-->
+                    <td colspan="3">Databases</td>
+                    <!-- 2 Column Span-->
+                    <td colspan="2">Graphic Design</td>
+                    <td colspan=2>Game Development</td>
+                </tr>
+                <!-- Second Table Row -->
+                <tr>
+                    <th>Tuesday</th>
+                    <!-- 3 Column Span-->
+                    <td colspan="3">Front-end Development</td>
+                    <!-- 4 Column Span-->
+                    <td colspan="4">Back-end Development</td>
+                </tr>
+                <!-- Third Table Row -->
+                <tr>
+                    <th>Wednesday</th>
+                    <!-- 1 column -->
+                    <td>Java</td>
+                    <!-- 4 Column Span-->
+                    <td colspan="4">Software Development</td>
+                    <!-- 2 Column Span and 2 row span! -->
+                    <td rowspan="2" colspan="2">Game Development</td>
+                </tr>
+                <!-- Fourth Table Row -->
+                <tr>
+                    <th>Thursday</th>
+                    <!-- 5 Column span since the other 2 are Game Dev -->
+                    <td colspan="5"></td>
+                </tr>
+        <!-- End of table -->
+        </table>
+      </div>
+    <!-- End of body -->
+    </body>
+</html>
